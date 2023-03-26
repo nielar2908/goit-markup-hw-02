@@ -88,6 +88,7 @@ body {
 .list {
   list-style: none;
   list-style-type: none;
+  text-decoration: none;
 }
 .navigation {
   display: flex;
@@ -101,6 +102,10 @@ body {
   height: 24px;
   left: 347px;
   top: 24px;
+
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 .nav-01 {
   width: 48px;
