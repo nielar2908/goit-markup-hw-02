@@ -1,35 +1,28 @@
-p {
-  width: 264px;
-  height: 72px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  letter-spacing: 0.02em;
-
-  color: #434455;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  color: #434455;
 }
 .body {
   position: relative;
   width: 1440px;
   height: 2592px;
-  background: #ffffff;
+  background-color: #ffffff;
 }
+
+.list {
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+:root {
+  --btn-logo-color: #4d5ae5;
+}
+
+/* -------------------------HEADER----------------------------- */
 .header {
   box-sizing: border-box;
-
   position: absolute;
   width: 1440px;
   height: 72px;
@@ -51,7 +44,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--btn-logo-color);
   text-decoration: none;
 
   position: absolute;
@@ -72,7 +65,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
 
   display: flex;
   align-items: center;
@@ -85,11 +78,7 @@ body {
   order: 1;
   flex-grow: 0;
 }
-.list {
-  list-style: none;
-  list-style-type: none;
-  text-decoration: none;
-}
+
 .navigation {
   display: flex;
   flex-direction: row;
